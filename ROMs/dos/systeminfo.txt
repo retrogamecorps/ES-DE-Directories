@@ -1,0 +1,22 @@
+System name:
+dos
+
+Full system name:
+DOS (PC)
+
+Supported file extensions:
+.bat .BAT .com .COM .conf .CONF .cue .CUE .dosz .DOSZ .exe .EXE .img .IMG .iso .ISO .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/dosbox_pure_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch commands:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/dosbox_core_libretro_android.so %EXTRA_ROM%=%ROM%
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/dosbox_svn_libretro_android.so %EXTRA_ROM%=%ROM%
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/virtualxt_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platform (for scraping):
+dos
+
+Theme folder:
+dos

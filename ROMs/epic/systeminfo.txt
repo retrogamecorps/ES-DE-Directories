@@ -1,0 +1,17 @@
+System name:
+epic
+
+Full system name:
+Epic Games Store
+
+Supported file extensions:
+.app .APP
+
+Launch command:
+%ANDROIDAPP%=%FILEINJECT%
+
+Platform (for scraping):
+android
+
+Theme folder:
+epic

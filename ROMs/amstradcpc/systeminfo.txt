@@ -1,0 +1,21 @@
+System name:
+amstradcpc
+
+Full system name:
+Amstrad CPC
+
+Supported file extensions:
+.cdt .CDT .cpr .CPR .dsk .DSK .kcr .KCR .m3u .M3U .sna .SNA .tap .TAR .voc .VOC .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/cap32_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch commands:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/crocods_libretro_android.so %EXTRA_ROM%=%ROM%
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/amstradcpc' -flop1 '%ROMRAW%'" %DATA%=cpc6128
+
+Platform (for scraping):
+amstradcpc
+
+Theme folder:
+amstradcpc

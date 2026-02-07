@@ -1,0 +1,20 @@
+System name:
+cdimono1
+
+Full system name:
+Philips CD-i
+
+Supported file extensions:
+.chd .CHD .cue .CUE .iso .ISO
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/same_cdi_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/cdimono1' -cdrom '%ROMRAW%'" %DATA%=cdimono1
+
+Platform (for scraping):
+cdimono1
+
+Theme folder:
+cdimono1

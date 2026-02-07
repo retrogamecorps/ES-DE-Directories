@@ -1,0 +1,22 @@
+System name:
+atarilynx
+
+Full system name:
+Atari Lynx
+
+Supported file extensions:
+.lnx .LNX .lyx .LYX .o .O .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/handy_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch commands:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mednafen_lynx_libretro_android.so %EXTRA_ROM%=%ROM%
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/holani_libretro_android.so %EXTRA_ROM%=%ROM%
+%EMULATOR_LYNX-EMU% %DATA%=%ROMPROVIDER%
+
+Platform (for scraping):
+atarilynx
+
+Theme folder:
+atarilynx

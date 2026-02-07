@@ -1,0 +1,24 @@
+System name:
+fm7
+
+Full system name:
+Fujitsu FM-7
+
+Supported file extensions:
+.1dd .1DD .cqi .CQI .cqm .CQM .d77 .D77 .d88 .D88 .dfi .DFI .dsk .DSK .hfe .HFE .imd .IMD .mfi .MFI .mfm .MFM .t77 .T77 .td0 .TD0 .wav .WAV .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/fm7' -flop1 '%ROMRAW%'" %DATA%=fm7
+
+Alternative launch commands:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/fm7' -autoboot_delay '5' -autoboot_command 'load\n\n\nrun\n' -cass1 '%ROMRAW%'" %DATA%=fm7
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/fm7'" %DATA%=%ROMPROVIDER%
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/fm7' -flop1 '%ROMRAW%'" %DATA%=fm77av
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/fm7' -autoboot_delay '5' -autoboot_command 'load\n\n\nrun\n' -cass1 '%ROMRAW%'" %DATA%=fm77av
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/fm7'" %DATA%=%ROMPROVIDER%
+
+Platform (for scraping):
+fm7
+
+Theme folder:
+fm7

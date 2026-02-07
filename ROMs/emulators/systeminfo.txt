@@ -1,0 +1,17 @@
+System name:
+emulators
+
+Full system name:
+Emulators
+
+Supported file extensions:
+.app .APP
+
+Launch command:
+%ANDROIDAPP%=%FILEINJECT%
+
+Platform (for scraping):
+android
+
+Theme folder:
+emulators

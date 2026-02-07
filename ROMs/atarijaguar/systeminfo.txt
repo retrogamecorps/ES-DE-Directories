@@ -1,0 +1,21 @@
+System name:
+atarijaguar
+
+Full system name:
+Atari Jaguar
+
+Supported file extensions:
+.abs .ABS .bin .BIN .cdi .CDI .cof .COF .cue .CUE .j64 .J64 .jag .JAG .prg .PRG .rom .ROM .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/virtualjaguar_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch commands:
+%EMULATOR_IRATAJAGUAR% %DATA%=%ROMSAF%
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/atarijaguar' -cart '%ROMRAW%'" %DATA%=jaguar
+
+Platform (for scraping):
+atarijaguar
+
+Theme folder:
+atarijaguar

@@ -1,0 +1,21 @@
+System name:
+electron
+
+Full system name:
+Acorn Electron
+
+Supported file extensions:
+.1dd .1DD .adf .ADF .adl .ADL .adm .ADM .ads .ADS .bbc .BBC .bin .BIN .cqi .CQI .cqm .CQM .csw .CSW .d77 .D77 .d88 .D88 .dfi .DFI .dsd .DSD .dsk .DSK .hfe .HFE .imd .IMD .img .IMG .mfi .MFI .mfm .MFM .rom .ROM .ssd .SSD .td0 .TD0 .uef .UEF .wav .WAV .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/electron' -autoboot_delay '2' -autoboot_command '*T.\nCH.\"\"\n' -cass1 '%ROMRAW%'" %DATA%=electron64
+
+Alternative launch commands:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/electron' -exp plus1 -cart1 seds -autoboot_delay '2' -autoboot_command '*CAT\n\n\n\n\n\n*EXEC !BOOT\n' -flop1 '%ROMRAW%'" %DATA%=electron64
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/electron' -exp plus3 -exp:plus3:fdc:1 35dd -autoboot_delay '2' -autoboot_command '*CAT\n\n\n\n\n\n*RUN !BOOT\n' -flop1 '%ROMRAW%'" %DATA%=electron64
+
+Platform (for scraping):
+electron
+
+Theme folder:
+electron

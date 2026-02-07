@@ -1,0 +1,17 @@
+System name:
+easyrpg
+
+Full system name:
+EasyRPG Game Engine
+
+Supported file extensions:
+.easyrpg .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/easyrpg_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platform (for scraping):
+easyrpg
+
+Theme folder:
+easyrpg

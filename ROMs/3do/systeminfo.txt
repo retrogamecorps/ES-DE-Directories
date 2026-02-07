@@ -1,0 +1,20 @@
+System name:
+3do
+
+Full system name:
+3DO Interactive Multiplayer
+
+Supported file extensions:
+.bin .BIN .chd .CHD .cue .CUE .iso .ISO .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/opera_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch command:
+%EMULATOR_REAL3DOPLAYER% %DATA%=%ROMSAF%
+
+Platform (for scraping):
+3do
+
+Theme folder:
+3do

@@ -1,0 +1,17 @@
+System name:
+doom
+
+Full system name:
+Doom
+
+Supported file extensions:
+.iwad .IWAD .pwad .PWAD .wad .WAD
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/prboom_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platforms (for scraping):
+pc, pcwindows
+
+Theme folder:
+doom

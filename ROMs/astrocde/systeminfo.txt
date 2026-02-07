@@ -1,0 +1,17 @@
+System name:
+astrocde
+
+Full system name:
+Bally Astrocade
+
+Supported file extensions:
+.7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/astrocde' -cart '%ROMRAW%'" %DATA%=astrocde
+
+Platform (for scraping):
+astrocde
+
+Theme folder:
+astrocade

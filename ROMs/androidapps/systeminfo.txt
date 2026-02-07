@@ -1,0 +1,17 @@
+System name:
+androidapps
+
+Full system name:
+Android Apps
+
+Supported file extensions:
+.app .APP
+
+Launch command:
+%ANDROIDAPP%=%FILEINJECT%
+
+Platform (for scraping):
+android
+
+Theme folder:
+androidapps

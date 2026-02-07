@@ -1,0 +1,24 @@
+System name:
+fds
+
+Full system name:
+Nintendo Famicom Disk System
+
+Supported file extensions:
+.nes .NES .fds .FDS .unf .UNF .UNIF .UNIF .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mesen_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch commands:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/nestopia_libretro_android.so %EXTRA_ROM%=%ROM%
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/fceumm_libretro_android.so %EXTRA_ROM%=%ROM%
+%EMULATOR_NES-EMU% %DATA%=%ROMPROVIDER%
+%EMULATOR_INES% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%
+%EMULATOR_NESOID% %ACTION%=android.intent.action.VIEW %DATA%=%ROM%
+
+Platform (for scraping):
+fds
+
+Theme folder:
+fds

@@ -1,0 +1,17 @@
+System name:
+androidgames
+
+Full system name:
+Android Games
+
+Supported file extensions:
+.app .APP
+
+Launch command:
+%ANDROIDAPP%=%FILEINJECT%
+
+Platform (for scraping):
+android
+
+Theme folder:
+androidgames

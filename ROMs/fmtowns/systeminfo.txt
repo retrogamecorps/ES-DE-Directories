@@ -1,0 +1,17 @@
+System name:
+fmtowns
+
+Full system name:
+Fujitsu FM Towns
+
+Supported file extensions:
+.cdr .CDR .chd .CHD .cue .CUE .gdi .GDI .iso .ISO
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/fmtowns' -cdrom '%ROMRAW%'" %DATA%=fmtownshr
+
+Platform (for scraping):
+fmtowns
+
+Theme folder:
+fmtowns

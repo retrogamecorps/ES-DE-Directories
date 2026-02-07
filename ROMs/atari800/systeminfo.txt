@@ -1,0 +1,17 @@
+System name:
+atari800
+
+Full system name:
+Atari 800
+
+Supported file extensions:
+.a52 .A52 .atr .ATR .atx .ATX .bin .BIN .car .CAR .cas .CAS .cdm .CDM .com .COM .rom .ROM .xex .XEX .xfd .XFD .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/atari800_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platform (for scraping):
+atari800
+
+Theme folder:
+atari800

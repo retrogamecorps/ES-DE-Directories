@@ -1,0 +1,20 @@
+System name:
+flash
+
+Full system name:
+Adobe Flash
+
+Supported file extensions:
+.ruf .RUF .swf .SWF
+
+Launch command:
+%EMULATOR_RUFFLE% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%
+
+Alternative launch command:
+%EMULATOR_SWF-PLAYER% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%
+
+Platform (for scraping):
+flash
+
+Theme folder:
+flash

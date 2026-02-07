@@ -1,0 +1,17 @@
+System name:
+apple2gs
+
+Full system name:
+Apple IIGS
+
+Supported file extensions:
+.2mg .2MG .7z .7z .zip .ZIP
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/apple2gs' -gameio joy -flop3 '%ROMRAW%'" %DATA%=apple2gs
+
+Platform (for scraping):
+apple2gs
+
+Theme folder:
+apple2gs

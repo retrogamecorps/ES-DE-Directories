@@ -1,0 +1,20 @@
+System name:
+coco
+
+Full system name:
+Tandy Color Computer
+
+Supported file extensions:
+.cas .CAS .ccc .CCC .dsk .DSK .rom .ROM
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/coco' -cart '%ROMRAW%'" %DATA%=coco
+
+Alternative launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/coco' -autoboot_delay '2' -autoboot_command 'cloadm:exec\n' -cass '%ROMRAW%'" %DATA%=coco
+
+Platform (for scraping):
+coco
+
+Theme folder:
+coco

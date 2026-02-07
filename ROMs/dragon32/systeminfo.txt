@@ -1,0 +1,22 @@
+System name:
+dragon32
+
+Full system name:
+Dragon Data Dragon 32
+
+Supported file extensions:
+.cas .CAS .ccc .CCC .dsk .DSK .rom .ROM .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/dragon32' -autoboot_delay '4' -autoboot_command 'cloadm\"\"\n' -cass '%ROMRAW%'" %DATA%=dragon32
+
+Alternative launch commands:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/dragon32' -cart '%ROMRAW%'" %DATA%=dragon32
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/dragon32' -autoboot_delay '4' -autoboot_command 'cloadm\"\"\n' -cass '%ROMRAW%'" %DATA%=dragon64
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/dragon32' -cart '%ROMRAW%'" %DATA%=dragon64
+
+Platform (for scraping):
+dragon32
+
+Theme folder:
+dragon32

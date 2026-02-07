@@ -1,0 +1,23 @@
+System name:
+consolearcade
+
+Full system name:
+Console Arcade Systems
+
+Supported file extensions:
+.arcadedef .iso .ISO .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mamearcade_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch commands:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/consolearcade'" %DATA%=%ROMPROVIDER%
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/flycast_libretro_android.so %EXTRA_ROM%=%ROM%
+%EMULATOR_FLYCAST% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%
+%EMULATOR_PLAY!% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%
+
+Platform (for scraping):
+arcade
+
+Theme folder:
+consolearcade
