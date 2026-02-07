@@ -1,0 +1,21 @@
+System name:
+steam
+
+Full system name:
+Valve Steam
+
+Supported file extensions:
+.steam
+
+Launch command:
+%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRAINTEGER_app_id%=%INJECT%=%ROM%
+
+Alternative launch commands:
+%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_steamAppId%=%INJECT%=%ROM%
+%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_localGameId%=%INJECT%=%ROM%
+
+Platform (for scraping):
+steam
+
+Theme folder:
+steam

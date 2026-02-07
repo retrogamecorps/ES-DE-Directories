@@ -1,0 +1,20 @@
+System name:
+neogeocd
+
+Full system name:
+SNK Neo Geo CD
+
+Supported file extensions:
+.chd .CHD .cue .CUE
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/neocd_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/neogeocd' -cdrm '%ROMRAW%'" %DATA%=neocdz
+
+Platform (for scraping):
+neogeocd
+
+Theme folder:
+neogeocd

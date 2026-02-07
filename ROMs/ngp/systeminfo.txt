@@ -1,0 +1,21 @@
+System name:
+ngp
+
+Full system name:
+SNK Neo Geo Pocket
+
+Supported file extensions:
+.ngc .NGC .ngp .NGP .ngpc .NGPC .npc .NPC .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mednafen_ngp_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch commands:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/race_libretro_android.so %EXTRA_ROM%=%ROM%
+%EMULATOR_NGP-EMU% %DATA%=%ROMPROVIDER%
+
+Platform (for scraping):
+ngp
+
+Theme folder:
+ngp

@@ -1,0 +1,23 @@
+System name:
+saturnjp
+
+Full system name:
+Sega Saturn
+
+Supported file extensions:
+.bin .BIN .ccd .CCD .chd .CHD .cue .CUE .iso .ISO .m3u .M3U .mds .MDS .toc .TOC .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mednafen_saturn_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch commands:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/yabasanshiro_libretro_android.so %EXTRA_ROM%=%ROM%
+%EMULATOR_YABASANSHIRO-2% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %EXTRA_org.uoyabause.android.FileNameUri%=%ROMSAF%
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/yabause_libretro_android.so %EXTRA_ROM%=%ROM%
+%EMULATOR_SATURN-EMU% %DATA%=%ROMSAF%
+
+Platform (for scraping):
+saturn
+
+Theme folder:
+saturnjp

@@ -1,0 +1,17 @@
+System name:
+spectravideo
+
+Full system name:
+Spectravideo
+
+Supported file extensions:
+.cas .CAS .col .COL .dsk .DSK .m3u .M3U .mx1 .MX1 .mx2 .MX2 .ri .RI .rom .ROM .sc .SC .sg .SG .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/bluemsx_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platform (for scraping):
+spectravideo
+
+Theme folder:
+spectravideo

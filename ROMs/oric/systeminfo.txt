@@ -1,0 +1,17 @@
+System name:
+oric
+
+Full system name:
+Tangerine Computer Systems Oric
+
+Supported file extensions:
+.dsk .DSK .ort .ORT .tap .TAP .wav .WAV
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/oric' -autoboot_delay '4' -autoboot_command 'cload\"\"\n' -cass '%ROMRAW%'" %DATA%=oric1
+
+Platform (for scraping):
+oric
+
+Theme folder:
+oric

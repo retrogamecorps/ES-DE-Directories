@@ -1,0 +1,20 @@
+System name:
+odyssey2
+
+Full system name:
+Magnavox Odyssey 2
+
+Supported file extensions:
+.bin .BIN .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/o2em_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/odyssey2' -cart '%ROMRAW%'" %DATA%=odyssey2
+
+Platform (for scraping):
+odyssey2
+
+Theme folder:
+odyssey2

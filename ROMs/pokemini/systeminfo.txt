@@ -1,0 +1,17 @@
+System name:
+pokemini
+
+Full system name:
+Nintendo Pokémon Mini
+
+Supported file extensions:
+.min .MIN .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/pokemini_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platform (for scraping):
+pokemini
+
+Theme folder:
+pokemini

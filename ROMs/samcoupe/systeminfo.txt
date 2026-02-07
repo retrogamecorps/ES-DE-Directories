@@ -1,0 +1,17 @@
+System name:
+samcoupe
+
+Full system name:
+MGT SAM Coupé
+
+Supported file extensions:
+.dsk .DSK .mgt .MGT .sad .SAD .sbt .SBT .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_SPECCY% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%
+
+Platform (for scraping):
+samcoupe
+
+Theme folder:
+samcoupe

@@ -1,0 +1,17 @@
+System name:
+supracan
+
+Full system name:
+Funtech Super A'Can
+
+Supported file extensions:
+.bin .BIN .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/supracan' -cart '%ROMRAW%'" %DATA%=supracan
+
+Platform (for scraping):
+supracan
+
+Theme folder:
+supracan

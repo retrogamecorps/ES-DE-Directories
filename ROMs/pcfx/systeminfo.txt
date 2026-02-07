@@ -1,0 +1,17 @@
+System name:
+pcfx
+
+Full system name:
+NEC PC-FX
+
+Supported file extensions:
+.ccd .CCD .chd .CHD .cue CUE .m3u .M3U .toc .TOC .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mednafen_pcfx_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platform (for scraping):
+pcfx
+
+Theme folder:
+pcfx

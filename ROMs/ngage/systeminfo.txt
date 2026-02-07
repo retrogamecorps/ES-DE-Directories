@@ -1,0 +1,17 @@
+System name:
+ngage
+
+Full system name:
+Nokia N-Gage
+
+Supported file extensions:
+.json .JSON
+
+Launch command:
+%EMULATOR_EKA2L1% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%
+
+Platform (for scraping):
+ngage
+
+Theme folder:
+ngage

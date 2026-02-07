@@ -1,0 +1,17 @@
+System name:
+openbor
+
+Full system name:
+OpenBOR Game Engine
+
+Supported file extensions:
+.openbor
+
+Launch command:
+%EMULATOR_OPENBOR% %ACTION%=android.intent.action.MAIN
+
+Platform (for scraping):
+openbor
+
+Theme folder:
+openbor

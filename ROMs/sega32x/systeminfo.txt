@@ -1,0 +1,17 @@
+System name:
+sega32x
+
+Full system name:
+Sega Mega Drive 32X
+
+Supported file extensions:
+.32x .32X .68k .68K .bin .BIN .chd .CHD .cue .CUE .gen .GEN .iso .ISO .m3u .M3U .md .MD .smd .SMD .sms .SMS .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/picodrive_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platform (for scraping):
+sega32x
+
+Theme folder:
+sega32x

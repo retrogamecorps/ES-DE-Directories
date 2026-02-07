@@ -1,0 +1,21 @@
+System name:
+ps3
+
+Full system name:
+Sony PlayStation 3
+
+Supported file extensions:
+.iso .ISO .ps3 .PS3
+
+Launch command:
+%EMULATOR_APS3E% %ACTION%=aenu.intent.action.APS3E %EXTRA_game_dir%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/aps3e/config/dev_hdd0/game/%INJECT%=%BASENAME%.ps3
+
+Alternative launch commands:
+%EMULATOR_APS3E% %ACTION%=aenu.intent.action.APS3E %EXTRA_game_dir%=%ROM%
+%EMULATOR_APS3E% %ACTION%=aenu.intent.action.APS3E %EXTRA_iso_uri%=%ROMSAF%
+
+Platform (for scraping):
+ps3
+
+Theme folder:
+ps3

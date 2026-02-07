@@ -1,0 +1,20 @@
+System name:
+scummvm
+
+Full system name:
+ScummVM Game Engine
+
+Supported file extensions:
+.scummvm .SCUMMVM .svm .SVM
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/scummvm_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch command:
+%EMULATOR_SCUMMVM% %ACTION%=android.intent.action.MAIN %CATEGORY%=android.intent.action.MAIN %DATA%=%INJECT%=%ROM%
+
+Platform (for scraping):
+scummvm
+
+Theme folder:
+scummvm

@@ -1,0 +1,17 @@
+System name:
+pv1000
+
+Full system name:
+Casio PV-1000
+
+Supported file extensions:
+.bin .BIN .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/pv1000' -cart '%ROMRAW%'" %DATA%=pv1000
+
+Platform (for scraping):
+pv1000
+
+Theme folder:
+pv1000
