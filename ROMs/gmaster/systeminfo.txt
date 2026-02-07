@@ -1,0 +1,17 @@
+System name:
+gmaster
+
+Full system name:
+Hartung Game Master
+
+Supported file extensions:
+.bin .BIN .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/gmaster' -cart '%ROMRAW%'" %DATA%=gmaster
+
+Platform (for scraping):
+gmaster
+
+Theme folder:
+gmaster

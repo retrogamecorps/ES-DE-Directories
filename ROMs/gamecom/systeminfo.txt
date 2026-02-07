@@ -1,0 +1,17 @@
+System name:
+gamecom
+
+Full system name:
+Tiger Electronics Game.com
+
+Supported file extensions:
+.tgc .TGC .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/gamecom' -cartridge1 '%ROMRAW%'" %DATA%=gamecom
+
+Platform (for scraping):
+gamecom
+
+Theme folder:
+gamecom

@@ -1,0 +1,22 @@
+System name:
+gameandwatch
+
+Full system name:
+Nintendo Game and Watch
+
+Supported file extensions:
+.mgw .MGW .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mamemess_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch commands:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-artpath '%ROMPATHRAW%/gameandwatch/artwork'" %DATA%=%ROMPROVIDER%
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/gw_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platform (for scraping):
+gameandwatch
+
+Theme folder:
+gameandwatch

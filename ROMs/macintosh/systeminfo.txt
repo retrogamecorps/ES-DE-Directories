@@ -1,0 +1,22 @@
+System name:
+macintosh
+
+Full system name:
+Apple Macintosh
+
+Supported file extensions:
+.dsk .DSK
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/macintosh' -flop1 '%ROMRAW%'" %DATA%=macse
+
+Alternative launch commands:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/macintosh' -flop1 %GAMEDIRRAW%/boot.dsk -flop2 '%ROMRAW%'" %DATA%=macse
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/macintosh' -flop1 '%ROMRAW%'" %DATA%=macplus
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/macintosh' -flop1 %GAMEDIRRAW%/boot.dsk -flop2 '%ROMRAW%'" %DATA%=macplus
+
+Platform (for scraping):
+macintosh
+
+Theme folder:
+macintosh

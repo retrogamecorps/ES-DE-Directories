@@ -1,0 +1,17 @@
+System name:
+lowresnx
+
+Full system name:
+LowRes NX Fantasy Console
+
+Supported file extensions:
+.nx .NX
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/lowresnx_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platform (for scraping):
+lowresnx
+
+Theme folder:
+lowresnx
