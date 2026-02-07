@@ -1,0 +1,17 @@
+System name:
+wasm4
+
+Full system name:
+WASM-4 Fantasy Console
+
+Supported file extensions:
+.wasm .WASM
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/wasm4_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platform (for scraping):
+wasm4
+
+Theme folder:
+wasm4

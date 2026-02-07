@@ -1,0 +1,20 @@
+System name:
+zxspectrum
+
+Full system name:
+Sinclair ZX Spectrum
+
+Supported file extensions:
+.dsk .DSK .gz .GZ .img .IMG .mgt .MGT .rzx .RZX .scl .SCL .sh .SH .sna .SNA .szx .SZX .tap .TAP .trd .TRD .tzx .TZX .udi .UDI .z80 .Z80 .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/fuse_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch command:
+%EMULATOR_SPECCY% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%
+
+Platform (for scraping):
+zxspectrum
+
+Theme folder:
+zxspectrum

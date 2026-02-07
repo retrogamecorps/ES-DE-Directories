@@ -1,0 +1,17 @@
+System name:
+vircon32
+
+Full system name:
+Vircon32 Virtual Console
+
+Supported file extensions:
+.v32 .V32 .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/vircon32_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platform (for scraping):
+vircon32
+
+Theme folder:
+vircon32

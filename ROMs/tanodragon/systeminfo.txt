@@ -1,0 +1,20 @@
+System name:
+tanodragon
+
+Full system name:
+Tano Dragon
+
+Supported file extensions:
+.cas .CAS .ccc .CCC .dsk .DSK .rom .ROM .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/dragon32' -autoboot_delay '4' -autoboot_command 'cloadm\"\"\n' -cass '%ROMRAW%'" %DATA%=tanodr64
+
+Alternative launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/dragon32' -cart '%ROMRAW%'" %DATA%=tanodr64
+
+Platform (for scraping):
+dragon32
+
+Theme folder:
+tanodragon

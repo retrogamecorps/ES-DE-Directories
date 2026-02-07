@@ -1,0 +1,20 @@
+System name:
+wonderswancolor
+
+Full system name:
+Bandai WonderSwan Color
+
+Supported file extensions:
+.pc2 .PC2 .ws .WS .wsc .WSC .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mednafen_wswan_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch command:
+%EMULATOR_SWAN-EMU% %DATA%=%ROMPROVIDER%
+
+Platform (for scraping):
+wonderswancolor
+
+Theme folder:
+wonderswancolor

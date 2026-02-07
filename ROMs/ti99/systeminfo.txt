@@ -1,0 +1,17 @@
+System name:
+ti99
+
+Full system name:
+Texas Instruments TI-99
+
+Supported file extensions:
+.rpk .RPK .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_MAME4DROID-CURRENT% %ACTION%=android.intent.action.VIEW %EXTRA_cli_params%="-rompath '%GAMEDIRRAW%;%ROMPATHRAW%/ti99' -ioport peb -ioport:peb:slot3 speechadapter -cart '%ROMRAW%'" %DATA%=ti99_4a
+
+Platform (for scraping):
+ti99
+
+Theme folder:
+ti99

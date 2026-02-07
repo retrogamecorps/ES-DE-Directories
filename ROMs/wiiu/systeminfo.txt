@@ -1,0 +1,17 @@
+System name:
+wiiu
+
+Full system name:
+Nintendo Wii U
+
+Supported file extensions:
+.elf .ELF .rpx .RPX .tmd .TMD .wua .WUA .wud .WUD .wuhb .WUHB .wux .WUX
+
+Launch command:
+%EMULATOR_CEMU% %DATA%=%ROMSAF%
+
+Platform (for scraping):
+wiiu
+
+Theme folder:
+wiiu

@@ -1,0 +1,20 @@
+System name:
+virtualboy
+
+Full system name:
+Nintendo Virtual Boy
+
+Supported file extensions:
+.bin .BIN .vb .VB .vboy .VBOY .7z .7Z .zip .ZIP
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mednafen_vb_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Alternative launch command:
+%EMULATOR_VIRTUAL-VIRTUAL-BOY% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%
+
+Platform (for scraping):
+virtualboy
+
+Theme folder:
+virtualboy

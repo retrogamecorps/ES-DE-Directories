@@ -1,0 +1,17 @@
+System name:
+vpinball
+
+Full system name:
+Visual Pinball
+
+Supported file extensions:
+.vpinball .VPINBALL .vpt .VPT .vpx .VPX
+
+Launch command:
+%EMULATOR_VISUAL-PINBALL% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%
+
+Platform (for scraping):
+vpinball
+
+Theme folder:
+vpinball
