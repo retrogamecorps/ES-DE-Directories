@@ -15,8 +15,8 @@ This release contains all of the ES-DE folders, so you can drop this ROMs folder
 
 ## Potential use cases
 1. You just bought a shiny new handheld and it's taking forever to ship.  While you wait, you could buy a microSD card and build out your ROMs directory so that you can have _immediate gaming nirvana_ on day one
-2. Maybe you want to try another great frontend like Daijisho, Beacon, or Console Launcher.  Those frontends are folder agnostic, so you could use this ES-DE folder directory on them too.  Then when you're ready to use ES-DE, your ROMs will already be properly organized.
-3. You have an old hard drive lying around, and you want to turn it into the **ultimate ROM repository**.  You could use this ROMs folder to organize things in a way that will make it easy to drag and drop them onto a microSD card in the future.
+2. Maybe you want to try another great frontend like Daijisho, Beacon, or Console Launcher.  Those frontends are folder agnostic, so you could use this ES-DE folder directory on them too.  Then when you're ready to use ES-DE, your ROMs will already be properly organized
+3. You have an old hard drive lying around, and you want to turn it into the **ultimate ROM repository**.  You could use this ROMs folder to organize things in a way that will make it easy to drag and drop them onto a microSD card in the future.  Sync all that up with a tool like Syncthing and you basically become a superhero
 
 ## Credits
 - All credit goes to the <a href="es-de.org">ES-DE team</a> and the wonderful frontend they've created.
