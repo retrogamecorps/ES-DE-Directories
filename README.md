@@ -6,7 +6,7 @@ ES-DE has its own file structure, which makes onboarding very easy -- simply dro
 This release contains all of the ES-DE folders, so you can drop this ROMs folder into a microSD card, and then add all of your games to those corresponding subfolders.  You can then use this setup with whatever frontend you'd like -- but once you're ready to try ES-DE, everything will be organized correctly too.  Just say no to copy/pasting!
 
 ## Instructions
-- Go to the <a href="https://github.com/retrogamecorps/ES-DE-Directories/releases">Releases page</a> and download the latest ROMs.zip release
+- Go to the <a href="https://github.com/retrogamecorps/ES-DE-Directories/releases/latest">Releases page</a> and download the latest ROMs.zip release
 - Unzip the file and place the `ROMs` folder on your microSD card
 - Drop all of your ROMs into their corresponding subfolder
 - Pop the card in your Android handheld and enjoy
