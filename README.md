@@ -12,3 +12,6 @@ This release contains all of the ES-DE folders, so you can drop this ROMs folder
 - Pop the card in your Android handheld and enjoy
 - If and when you install <a href="es-de.org">ES-DE</a>, point the app to your ROMs directory, and everything should work seamlessly
 - Celebrate with a snack and drink
+
+## Credits
+- All credit goes to the <a href="es-de.org">ES-DE team</a> and the wonderful frontend they've created.
