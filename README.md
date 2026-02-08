@@ -1,5 +1,5 @@
 # ES-DE Directories (Android)
-This is a collection of default <a href="es-de.org">ES-DE</a> ROM directories, from their Android app.
+This is a collection of default <a href="https://es-de.org">ES-DE</a> ROM directories, from their Android app.
 
 ES-DE creates its own file structure during the setup process, which makes onboarding very easy -- simply drop your ROMs into their corresponding subfolder(s) and the app does the rest.  However, this can be annoying if you have already set up your own ROM folders elsewhere, forcing you to copy/paste all of your files to match ES-DE's expected structure.
 
@@ -10,7 +10,7 @@ This release contains all of the ES-DE folders, so you can drop this ROMs folder
 - Unzip the file and place the `ROMs` folder on your microSD card
 - Drop all of your ROMs into their corresponding subfolder
 - Pop the card in your Android handheld and enjoy
-- If and when you install <a href="es-de.org">ES-DE</a>, point the app to your ROMs directory, and everything should work seamlessly
+- If and when you install <a href="https://es-de.org">ES-DE</a>, point the app to your ROMs directory, and everything should work seamlessly
 - Celebrate with a snack and drink
 
 ## Potential use cases
@@ -19,4 +19,4 @@ This release contains all of the ES-DE folders, so you can drop this ROMs folder
 3. You have an old hard drive lying around, and you want to turn it into the **ultimate ROM repository**.  You could use this ROMs folder to organize things in a way that will make it easy to drag and drop them onto a microSD card in the future.  Sync all that up with a tool like Syncthing and you basically become a superhero
 
 ## Credits
-- All credit goes to the <a href="es-de.org">ES-DE team</a> and the wonderful frontend they've created.
+- All credit goes to the <a href="https://es-de.org">ES-DE team</a> and the wonderful frontend they've created.
