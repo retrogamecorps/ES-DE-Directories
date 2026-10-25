@@ -1,0 +1,17 @@
+System name:
+atarijaguarcd
+
+Full system name:
+Atari Jaguar CD
+
+Supported file extensions:
+.abs .ABS .bin .BIN .cdi .CDI .cof .COF .cue .CUE .j64 .J64 .jag .JAG .prg .PRG .rom .ROM
+
+Launch command:
+%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=%EXTERNALDATA%/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=%INTERNALDATA%/%ANDROIDPACKAGE%/cores/virtualjaguar_libretro_android.so %EXTRA_ROM%=%ROM%
+
+Platform (for scraping):
+atarijaguarcd
+
+Theme folder:
+atarijaguarcd

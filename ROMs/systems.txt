@@ -19,6 +19,7 @@ atari5200: Atari 5200
 atari7800: Atari 7800 ProSystem
 atari800: Atari 800
 atarijaguar: Atari Jaguar
+atarijaguarcd: Atari Jaguar CD
 atarilynx: Atari Lynx
 atarist: Atari ST
 atarixe: Atari XE
@@ -119,6 +120,7 @@ pokemini: Nintendo Pokémon Mini
 ports: Ports
 ps2: Sony PlayStation 2
 ps3: Sony PlayStation 3
+ps4: Sony PlayStation 4
 psp: Sony PlayStation Portable
 psvita: Sony PlayStation Vita
 psx: Sony PlayStation
@@ -154,6 +156,7 @@ tg16: NEC TurboGrafx-16
 ti99: Texas Instruments TI-99
 tic80: TIC-80 Fantasy Computer
 to8: Thomson TO8
+triforce: Namco-Sega-Nintendo Triforce
 type-x: Taito Type X
 uzebox: Uzebox Open Source Console
 vectrex: GCE Vectrex
@@ -173,6 +176,8 @@ wonderswan: Bandai WonderSwan
 wonderswancolor: Bandai WonderSwan Color
 x1: Sharp X1
 x68000: Sharp X68000
+xbox: Microsoft Xbox
+xbox360: Microsoft Xbox 360
 zmachine: Infocom Z-machine
 zx81: Sinclair ZX81
 zxspectrum: Sinclair ZX Spectrum

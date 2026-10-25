@@ -1,0 +1,21 @@
+System name:
+xbox
+
+Full system name:
+Microsoft Xbox
+
+Supported file extensions:
+.iso .ISO .xiso .XISO
+
+Launch command:
+%EMULATOR_X1-BOX% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%
+
+Alternative launch commands:
+%EMULATOR_HAKUX% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%
+%EMULATOR_XENRA% %DATA%=%ROMSAF%
+
+Platform (for scraping):
+xbox
+
+Theme folder:
+xbox

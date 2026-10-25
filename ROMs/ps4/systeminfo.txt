@@ -1,0 +1,17 @@
+System name:
+ps4
+
+Full system name:
+Sony PlayStation 4
+
+Supported file extensions:
+.ps4 .PS4
+
+Launch command:
+%EMULATOR_BACHATAS4% %EXTRA_game_id%=%INJECT%=%BASENAME%.ps4
+
+Platform (for scraping):
+ps4
+
+Theme folder:
+ps4

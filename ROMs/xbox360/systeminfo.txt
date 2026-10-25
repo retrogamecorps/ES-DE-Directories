@@ -1,0 +1,21 @@
+System name:
+xbox360
+
+Full system name:
+Microsoft Xbox 360
+
+Supported file extensions:
+. .iso .ISO .xex .XEX .zar .ZAR
+
+Launch command:
+%EMULATOR_AX360E% %ACTION%=aenu.intent.action.AX360E %EXTRA_game_uri%=%ROMSAF%
+
+Alternative launch commands:
+%EMULATOR_XENDROID% %DATA%=%ROMSAF%
+%EMULATOR_XENRA% %DATA%=%ROMSAF%
+
+Platform (for scraping):
+xbox360
+
+Theme folder:
+xbox360
